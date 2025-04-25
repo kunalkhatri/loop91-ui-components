@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_asset">
+    <sys_ux_lib_asset action="INSERT_OR_UPDATE">
+        <bundled_asset>false</bundled_asset>
+        <category>component</category>
+        <checksum>ffd88685b32dec30613fb38f45b55d0d</checksum>
+        <config_option/>
+        <content>import*as e from"/uxasset/externals/@servicenow/ui-renderer-snabbdom/index.jsdbx";
+import*as t from"/uxasset/externals/@servicenow/ui-core/index.jsdbx";
+/*__ESM_BODY_START__*/
+var r={771:(e,t,r)=&gt;{r.r(t),r.d(t,{default:()=&gt;u});var o=r(232),n=r.n(o),a=r(41),l=r.n(a)()(n());l.push([e.id,':host{box-sizing:border-box;font-family:var(--now-font-family,"Source Sans Pro",sans-serif);line-height:var(--now-line-height,1.25)}:host([hidden]){display:none}*,:after,:before{box-sizing:border-box}',""]);const u=l},41:e=&gt;{e.exports=function(e){var t=[];return t.toString=function(){return this.map((function(t){var r="",o=void 0!==t[5];return t[4]&amp;&amp;(r+="@supports (".concat(t[4],") {")),t[2]&amp;&amp;(r+="@media ".concat(t[2]," {")),o&amp;&amp;(r+="@layer".concat(t[5].length&gt;0?" ".concat(t[5]):""," {")),r+=e(t),o&amp;&amp;(r+="}"),t[2]&amp;&amp;(r+="}"),t[4]&amp;&amp;(r+="}"),r})).join("")},t.i=function(e,r,o,n,a){"string"==typeof e&amp;&amp;(e=[[null,e,void 0]]);var l={};if(o)for(var u=0;u&lt;this.length;u++){var d=this[u][0];null!=d&amp;&amp;(l[d]=!0)}for(var s=0;s&lt;e.length;s++){var c=[].concat(e[s]);o&amp;&amp;l[c[0]]||(void 0!==a&amp;&amp;(void 0===c[5]||(c[1]="@layer".concat(c[5].length&gt;0?" ".concat(c[5]):""," {").concat(c[1],"}")),c[5]=a),r&amp;&amp;(c[2]?(c[1]="@media ".concat(c[2]," {").concat(c[1],"}"),c[2]=r):c[2]=r),n&amp;&amp;(c[4]?(c[1]="@supports (".concat(c[4],") {").concat(c[1],"}"),c[4]=n):c[4]="".concat(n)),t.push(c))}},t}},232:e=&gt;{e.exports=function(e){return e[1]}},397:(e,t,r)=&gt;{var o=r(771);o&amp;&amp;o.__esModule&amp;&amp;(o=o.default),e.exports="string"==typeof o?o:o.toString()}},o={};function n(e){var t=o[e];if(void 0!==t)return t.exports;var a=o[e]={id:e,exports:{}};return r[e](a,a.exports,n),a.exports}n.n=e=&gt;{var t=e&amp;&amp;e.__esModule?()=&gt;e.default:()=&gt;e;return n.d(t,{a:t}),t},n.d=(e,t)=&gt;{for(var r in t)n.o(t,r)&amp;&amp;!n.o(e,r)&amp;&amp;Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},n.o=(e,t)=&gt;Object.prototype.hasOwnProperty.call(e,t),n.r=e=&gt;{"undefined"!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var a={};n.r(a);const l=(e=&gt;{var t={};return n.d(t,e),t})({createElement:()=&gt;{const t=e.default&amp;&amp;e.__esModule;return t?e.default.createElement:e.createElement||e.default&amp;&amp;e.default.createElement},default:()=&gt;{const t=e.default&amp;&amp;e.__esModule;return t?e.default&amp;&amp;e.default.default?e.default.default:e.default:t?e.default.default:e.default?e.default.default?e.default.default:e.default:e}});const u=(e=&gt;{var t={};return n.d(t,e),t})({createCustomElement:()=&gt;{const e=t.default&amp;&amp;t.__esModule;return e?t.default.createCustomElement:t.createCustomElement||t.default&amp;&amp;t.default.createCustomElement}});var d=n(397),s=n.n(d);(0,u.createCustomElement)("x-904640-loop-91-google-maps-embed",{renderer:{type:l.default},view:(e,t)=&gt;{let{updateState:r}=t;return(0,l.createElement)("div",null,(0,l.createElement)("h1",null,"loop91.com"),(0,l.createElement)("p",null,"Show google maps here"))},styles:s()}),window.__TECTONIC__loop_91_google_maps_embed=a;
+/*__ESM_BODY_END__*/
+//# sourceMappingURL=/uxasset/externals/loop91-google-maps-embed/index.min.js.map.jsdbx</content>
+        <content_meta>{"tectonicVersion":"27.4.5","imports":[{"kind":"import-statement","path":"/uxasset/externals/@servicenow/ui-core/index.jsdbx"},{"kind":"import-statement","path":"/uxasset/externals/@servicenow/ui-renderer-snabbdom/index.jsdbx"}],"exports":[]}</content_meta>
+        <dependencies/>
+        <es_module>true</es_module>
+        <is_attachment>false</is_attachment>
+        <mime_type>application/javascript</mime_type>
+        <name>loop91-google-maps-embed/index</name>
+        <sys_class_name>sys_ux_lib_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 09:14:04</sys_created_on>
+        <sys_id>facc3cf8149bb696871586466f33c9c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>loop91-google-maps-embed/index</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_lib_asset_facc3cf8149bb696871586466f33c9c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 09:18:11</sys_updated_on>
+    </sys_ux_lib_asset>
+</record_update>

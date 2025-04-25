@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>A UI Component to embed Google Maps in ServiceNow.</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-904640-loop-91-google-maps-embed.svg">c51b351bb38a091e51ed2b1a9a5c7276</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 Google Maps Embed</label>
+        <macroponent display_value="loop91 Google Maps Embed">161f6f1efa6c454196de0af5df84c426</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 09:14:06</sys_created_on>
+        <sys_id>a58460881828924844c9d3a834a80ee1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>loop91 Google Maps Embed</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_a58460881828924844c9d3a834a80ee1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 09:18:12</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=a58460881828924844c9d3a834a80ee1"/>
+</record_update>
