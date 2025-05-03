@@ -10,7 +10,7 @@ This project aims to provide ServiceNow developers with a growing library of plu
 
 | Component Name           | Description                                              |
 |--------------------------|----------------------------------------------------------|
-| **Google Map Embed**     | Embed Google Maps with support for locations and markers. |
+| **Google Map Embed**     | Embed Google Maps with support for locations and markers. [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/google-places-embed) |
 
 ## Upcoming Components
 
@@ -41,6 +41,10 @@ Each component is published as a scoped and reusable component in ServiceNow. To
 3. Add components into your Workspace or UI Builder application.
 
 Refer to each component’s folder for setup, configuration, and usage instructions.
+
+## Documentation
+
+[https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs)
 
 ## 🧱 Built With
 
