@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:30:51</sys_created_on>
+        <sys_id>f68243d94795e6105bcceee3716d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>ua_table_licensing_config_f68243d94795e6105bcceee3716d430e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:30:51</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>446e90f4932026d4c4e8ddd548373c09</instance_id>
+        <instance_name>dev309585</instance_name>
+        <name>ua_table_licensing_config_f68243d94795e6105bcceee3716d430e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-03 11:30:51</sys_created_on><sys_id>f68243d94795e6105bcceee3716d430e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name><sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package><sys_policy/><sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope><sys_update_name>ua_table_licensing_config_f68243d94795e6105bcceee3716d430e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-03 11:30:51</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1104256499</payload_hash>
+        <record_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:33:21</sys_created_on>
+        <sys_id>df130b5d4795e6105bcceee3716d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19695ec1ce80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:33:21</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>9f130b5de795e61034cf780b55875fc5</update_guid>
+        <update_guid_history>9f130b5de795e61034cf780b55875fc5:-1104256499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:33:21</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>1b69f9d0bd644d0a84cecdc9e1bdc644</sys_id>
+        <sys_metadata>f68243d94795e6105bcceee3716d430e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_f68243d94795e6105bcceee3716d430e</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_f68243d94795e6105bcceee3716d430e">df130b5d4795e6105bcceee3716d43c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:33:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

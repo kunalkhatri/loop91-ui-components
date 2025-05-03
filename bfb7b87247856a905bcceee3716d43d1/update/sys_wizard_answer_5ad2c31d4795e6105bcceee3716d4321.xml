@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">1c14fbea5c4022105590c762d23e6318</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:32:11</sys_created_on>
+        <sys_id>5ad2c31d4795e6105bcceee3716d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_5ad2c31d4795e6105bcceee3716d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:32:11</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

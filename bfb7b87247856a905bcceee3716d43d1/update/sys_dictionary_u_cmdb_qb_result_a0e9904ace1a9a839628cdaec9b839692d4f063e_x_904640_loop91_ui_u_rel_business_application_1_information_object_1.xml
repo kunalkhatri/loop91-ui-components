@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="x_904640_loop91_ui_u_rel_business_application_1_information_object_1" table="u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="x_904640_loop91_ui_u_rel_business_application_1_information_object_1" table="u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e">
         <active>true</active>
         <array>false</array>
         <attributes>encode_utf8=false</attributes>
@@ -30,7 +30,7 @@
         <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</name>
+        <name>u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-04-25 08:32:13</sys_created_on>
+        <sys_created_on>2025-05-03 11:32:11</sys_created_on>
         <sys_name>Business Application 1_Information Object 1</sys_name>
         <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
-        <sys_update_name>sys_dictionary_u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0_x_904640_loop91_ui_u_rel_business_application_1_information_object_1</sys_update_name>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e_x_904640_loop91_ui_u_rel_business_application_1_information_object_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-25 08:32:15</sys_updated_on>
+        <sys_updated_on>2025-05-03 11:32:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

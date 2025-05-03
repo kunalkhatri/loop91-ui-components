@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <omit_related_list_count>false</omit_related_list_count>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:32:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70fc09f247096a905bcceee3716d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ui_list_control_70fc09f247096a905bcceee3716d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:32:15</sys_updated_on>
+    </sys_ui_list_control>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>446e90f4932026d4c4e8ddd548373c09</instance_id>
+        <instance_name>dev309585</instance_name>
+        <name>sys_ui_list_control_70fc09f247096a905bcceee3716d43e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <omit_related_list_count>false</omit_related_list_count>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 08:32:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70fc09f247096a905bcceee3716d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ui_list_control_70fc09f247096a905bcceee3716d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 08:32:15</sys_updated_on>
+    </sys_ui_list_control>
+</record_update>]]></payload>
+        <payload_hash>184444050</payload_hash>
+        <record_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</record_name>
+        <reverted_from/>
+        <source>e76ae91147dda6105bcceee3716d4369</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 05:05:58</sys_created_on>
+        <sys_id>fc7aad1147dda6105bcceee3716d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1969489747c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 05:05:58</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>b87aad1127dda6102821f9c84ec7dcf1</update_guid>
+        <update_guid_history>b87aad1127dda6102821f9c84ec7dcf1:0,718198f737012210faf52c7da15a5184:-1115447765,38fc09f2cd096a9053cd982ca1a111e8:-1636198142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 07:31:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>5cbfdc658188434ab336f44872cf5464</sys_id>
+        <sys_metadata>70fc09f247096a905bcceee3716d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_qb_result_8d06153b217570ab0effbbc87644f9b64fc2f3f0</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent display_value="CMDB Qb Result 8d06153b217570ab0effbbc87644f9b64fc2f3f0">a3ecc5f247096a905bcceee3716d43da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_70fc09f247096a905bcceee3716d43e7</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_70fc09f247096a905bcceee3716d43e7">fc7aad1147dda6105bcceee3716d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 07:31:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

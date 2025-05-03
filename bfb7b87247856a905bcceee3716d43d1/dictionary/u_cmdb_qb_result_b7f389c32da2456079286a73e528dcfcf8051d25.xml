@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="bc70755947dda6105bcceee3716d4357" extends="cmdb_qb_result_base" max_length="40" name="u_cmdb_qb_result_b7f389c32da2456079286a73e528dcfcf8051d25" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Application 1_Information Object 1" max_length="32" name="x_904640_loop91_ui_u_rel_business_application_1_information_object_1" reference="cmdb_rel_ci" reference_cascade_rule="none" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Information Object 1" max_length="32" name="x_904640_loop91_ui_u_information_object_1" reference="cmdb_ci_information_object" reference_cascade_rule="none" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Application 1" max_length="32" name="x_904640_loop91_ui_u_business_application_1" reference="cmdb_ci_business_app" reference_cascade_rule="none" type="reference"/>
+    </element>
+</database>
