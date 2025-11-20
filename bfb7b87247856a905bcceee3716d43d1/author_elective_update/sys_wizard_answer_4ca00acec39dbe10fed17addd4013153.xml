@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">96078c73e1b222108bb2327e62588637</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:49:27</sys_created_on>
+        <sys_id>4ca00acec39dbe10fed17addd4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_4ca00acec39dbe10fed17addd4013153</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:49:27</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>fb3eae7eeb0de21456eafddacad0cd4d</instance_id>
+        <instance_name>dev336560</instance_name>
+        <name>sys_wizard_answer_4ca00acec39dbe10fed17addd4013153</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</answer><button_label/><dependent_value/><element/><name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">96078c73e1b222108bb2327e62588637</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-20 10:49:27</sys_created_on><sys_id>4ca00acec39dbe10fed17addd4013153</sys_id><sys_mod_count>0</sys_mod_count><sys_name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</sys_name><sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package><sys_policy/><sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope><sys_update_name>sys_wizard_answer_4ca00acec39dbe10fed17addd4013153</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-20 10:49:27</sys_updated_on><table/><target_url>u_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-506897663</payload_hash>
+        <record_name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</record_name>
+        <reverted_from/>
+        <source>518e7810c3303210fed17addd4013114</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-10-20 22:59:52</sys_created_on>
+        <sys_id>77624e06c3ddbe10fed17addd40131e6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19a03d9ba400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>37624e06f2ddbe1090bf9310f624f1e6</update_guid>
+        <update_guid_history>37624e06f2ddbe1090bf9310f624f1e6:-506897663</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:57:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>5134b9c7062d440189b8dad6ca5843a9</sys_id>
+        <sys_metadata>4ca00acec39dbe10fed17addd4013153</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>U_cmdb_qb_result_d3b62a63dcf01dad3a7dd7de5243d816464c6846</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent display_value="Query Builder Results">96078c73e1b222108bb2327e62588637</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_4ca00acec39dbe10fed17addd4013153</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_4ca00acec39dbe10fed17addd4013153">77624e06c3ddbe10fed17addd40131e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:57:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

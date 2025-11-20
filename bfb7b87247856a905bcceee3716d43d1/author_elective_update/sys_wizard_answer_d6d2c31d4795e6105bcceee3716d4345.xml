@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">1c14fbea5c4022105590c762d23e6318</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:32:11</sys_created_on>
+        <sys_id>d6d2c31d4795e6105bcceee3716d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_d6d2c31d4795e6105bcceee3716d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:32:11</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>fb3eae7eeb0de21456eafddacad0cd4d</instance_id>
+        <instance_name>dev336560</instance_name>
+        <name>sys_wizard_answer_d6d2c31d4795e6105bcceee3716d4345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">1c14fbea5c4022105590c762d23e6318</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:32:11</sys_created_on>
+        <sys_id>d6d2c31d4795e6105bcceee3716d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_d6d2c31d4795e6105bcceee3716d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:32:11</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_a0e9904ace1a9a839628cdaec9b839692d4f063e.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>881603268</payload_hash>
+        <record_name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</record_name>
+        <reverted_from/>
+        <source>329006cec39dbe10fed17addd4013158</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:49:35</sys_created_on>
+        <sys_id>52a04202c3ddbe10fed17addd40131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aa0e248f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:49:35</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>9aa0420225ddbe100732c828d4cf97b0</update_guid>
+        <update_guid_history>9aa0420225ddbe100732c828d4cf97b0:0,b49f310ea19dbe1067a59a1dbb4dda6d:190000828,230ef5c6f09dbe109bab0ca0d55f7ea4:0,0aaab98ea65dbe1038abf878e261e10c:-298104515,e3d7750acd5dbe10ed4a57296b2f4e76:881603268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:57:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>110e1ba74708436e9165545090a8dc79</sys_id>
+        <sys_metadata>d6d2c31d4795e6105bcceee3716d4345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC_GuKDdADE39ILEjZ8FPy5FUOGKd1bMRjE-Query Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent display_value="Query Builder Results">96078c73e1b222108bb2327e62588637</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_d6d2c31d4795e6105bcceee3716d4345</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_d6d2c31d4795e6105bcceee3716d4345">52a04202c3ddbe10fed17addd40131b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:57:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

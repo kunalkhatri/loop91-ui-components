@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="x_904640_loop91_ui_u_information_object_1" table="u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Information Object 1</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>x_904640_loop91_ui_u_information_object_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_information_object">cmdb_ci_information_object</reference>
+        <reference_cascade_rule>none</reference_cascade_rule>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 08:32:13</sys_created_on>
+        <sys_name>Information Object 1</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09_x_904640_loop91_ui_u_information_object_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 08:32:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>fb3eae7eeb0de21456eafddacad0cd4d</instance_id>
+        <instance_name>dev336560</instance_name>
+        <name>sys_dictionary_u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09_x_904640_loop91_ui_u_information_object_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="x_904640_loop91_ui_u_information_object_1" table="u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Information Object 1</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>x_904640_loop91_ui_u_information_object_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_information_object">cmdb_ci_information_object</reference>
+        <reference_cascade_rule>none</reference_cascade_rule>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 08:32:13</sys_created_on>
+        <sys_name>Information Object 1</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09_x_904640_loop91_ui_u_information_object_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 08:32:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-1016640170</payload_hash>
+        <record_name>CMDB Qb Result F1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09.Information Object 1</record_name>
+        <reverted_from/>
+        <source>329006cec39dbe10fed17addd4013158</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:49:34</sys_created_on>
+        <sys_id>79a00202c3ddbe10fed17addd4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aa0e244930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:49:34</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>b1a002024eddbe10931063c6d2ac4a51</update_guid>
+        <update_guid_history>b1a002024eddbe10931063c6d2ac4a51:0,0a9ff10e819dbe109f597e862774a6ed:1261567838,930eb5c69d9dbe102ba323659efef3b4:0,7eaa3d8e775dbe104a47a641a8cafb8c:1261567838,17d7350afc5dbe10bd479ba6d49f7d84:0,d3d7350a0e5dbe109e7f3e7429d5e47d:65192911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:57:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>13a52a1a0efe419ca6425473f7f44349</sys_id>
+        <sys_metadata>e8a04acec39dbe10fed17addd40131ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Information Object 1</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent display_value="">e5a95ed147d1e6105bcceee3716d4390</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09_x_904640_loop91_ui_u_information_object_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_cmdb_qb_result_f1b34f83d2da1a5e314c9e23a7ca0a37d3ec4d09_x_904640_loop91_ui_u_information_object_1">79a00202c3ddbe10fed17addd4013151</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:57:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

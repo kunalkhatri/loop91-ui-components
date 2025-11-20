@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_extendable>false</is_extendable>
+        <label>GRC_2NBfgtRsAwzvQlMPRK3DMYinugzC9UUI-Query Results</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_cmdb_qb_result_44043ae919d88432e09181ea3a40a2d09635ee77</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Query Builder Results" name="cmdb_qb_result_base">5414fbea5c4022105590c762d23e6318</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 05:05:54</sys_created_on>
+        <sys_id>383f707247c56a905bcceee3716d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Qb Result 44043ae919d88432e09181ea3a40a2d09635ee77</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_db_object_383f707247c56a905bcceee3716d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 05:05:54</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>fb3eae7eeb0de21456eafddacad0cd4d</instance_id>
+        <instance_name>dev336560</instance_name>
+        <name>sys_db_object_383f707247c56a905bcceee3716d43da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_extendable>false</is_extendable>
+        <label>GRC_2NBfgtRsAwzvQlMPRK3DMYinugzC9UUI-Query Results</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_cmdb_qb_result_44043ae919d88432e09181ea3a40a2d09635ee77</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Query Builder Results" name="cmdb_qb_result_base">5414fbea5c4022105590c762d23e6318</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 05:05:54</sys_created_on>
+        <sys_id>383f707247c56a905bcceee3716d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Qb Result 44043ae919d88432e09181ea3a40a2d09635ee77</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_db_object_383f707247c56a905bcceee3716d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 05:05:54</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>424309024</payload_hash>
+        <record_name>GRC_2NBfgtRsAwzvQlMPRK3DMYinugzC9UUI-Query Results</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:49:29</sys_created_on>
+        <sys_id>e8a08acec39dbe10fed17addd40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aa0e230a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:49:29</sys_updated_on>
+        <type>Table</type>
+        <update_guid>a8a08ace519dbe10bae9fbf8bcd5cda0</update_guid>
+        <update_guid_history>778f3dcae09dbe108959c5639c846c8b:-249252911,c5aaf58e045dbe10b86f985116e3ea40:-647105009,7a33aa76e24d7250145e7326a9b8e673:1373876181,8170e6fe1f0d7250c957b7772285e43f:158807422</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:57:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>34763979d80e4c7c91402a526a21b899</sys_id>
+        <sys_metadata>383f707247c56a905bcceee3716d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Qb Result 44043ae919d88432e09181ea3a40a2d09635ee77</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_db_object_383f707247c56a905bcceee3716d43da</sys_update_name>
+        <sys_update_version display_value="sys_db_object_383f707247c56a905bcceee3716d43da">e8a08acec39dbe10fed17addd40131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:57:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

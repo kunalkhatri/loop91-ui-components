@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component_m2m_asset">
+    <sys_ux_lib_component_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="loop91-youtube-embed/index">5d5cd2d5beb8185b8be2a72e250b4c9c</asset>
+        <component display_value="x-1822728-loop-91-youtube-embed">d548888540b910a297ce3d9da25966bb</component>
+        <sys_class_name>sys_ux_lib_component_m2m_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 11:02:24</sys_created_on>
+        <sys_id>6e1cdee80a5c8e062d5ac1f3e4ffb03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_lib_component_m2m_asset_6e1cdee80a5c8e062d5ac1f3e4ffb03e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 11:02:24</sys_updated_on>
+    </sys_ux_lib_component_m2m_asset>
+</record_update>

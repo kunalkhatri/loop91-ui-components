@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>An iFrame component to show youtube video embed.</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-1822728-loop-91-youtube-embed.svg">1d77571a9bb8783149467fba9da575a4</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 Youtube Embed iFrame</label>
+        <macroponent display_value="loop91 Youtube Embed iFrame">2124bfb5462c4b1b5e0f67df24806f8f</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 11:02:24</sys_created_on>
+        <sys_id>3c875b1842335152f04cdc64def869f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>loop91 Youtube Embed iFrame</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_3c875b1842335152f04cdc64def869f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 11:02:24</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c875b1842335152f04cdc64def869f5"/>
+</record_update>

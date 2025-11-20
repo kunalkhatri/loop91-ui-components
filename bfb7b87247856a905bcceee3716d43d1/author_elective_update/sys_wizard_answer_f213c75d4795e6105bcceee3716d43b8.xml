@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Query Builder Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query Builder Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">1c14fbea5c4022105590c762d23e6318</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:33:18</sys_created_on>
+        <sys_id>f213c75d4795e6105bcceee3716d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Builder Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_f213c75d4795e6105bcceee3716d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:33:18</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_165776f0a9f869b25ff397bd41eeb6119bcb67ba.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</application>
+        <file_path/>
+        <instance_id>fb3eae7eeb0de21456eafddacad0cd4d</instance_id>
+        <instance_name>dev336560</instance_name>
+        <name>sys_wizard_answer_f213c75d4795e6105bcceee3716d43b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Query Builder Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query Builder Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">1c14fbea5c4022105590c762d23e6318</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 11:33:18</sys_created_on>
+        <sys_id>f213c75d4795e6105bcceee3716d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Builder Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_wizard_answer_f213c75d4795e6105bcceee3716d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 11:33:18</sys_updated_on>
+        <table/>
+        <target_url>u_cmdb_qb_result_165776f0a9f869b25ff397bd41eeb6119bcb67ba.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>-1278357048</payload_hash>
+        <record_name>Query Builder Results</record_name>
+        <reverted_from/>
+        <source>329006cec39dbe10fed17addd4013158</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:49:35</sys_created_on>
+        <sys_id>56a04202c3ddbe10fed17addd40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19aa0e249240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:49:35</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>9ea042022bddbe1076366d52ecc329b8</update_guid>
+        <update_guid_history>9ea042022bddbe1076366d52ecc329b8:0,b28f79ca049dbe10248abce7fc2ec386:-2020403539,270ef5c6eb9dbe1063b666e0a50909ac:0,bcaab58ea05dbe10cffc3fce7fe4db1a:-1904613043,abd7750ab85dbe101eee2aa0d42ad08a:-1278357048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 10:57:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>01fcb78dfe2c4cf88812021648c70da4</sys_id>
+        <sys_metadata>f213c75d4795e6105bcceee3716d43b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Builder Results</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_parent display_value="Query Builder Results">96078c73e1b222108bb2327e62588637</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_f213c75d4795e6105bcceee3716d43b8</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_f213c75d4795e6105bcceee3716d43b8">56a04202c3ddbe10fed17addd40131b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 10:57:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
