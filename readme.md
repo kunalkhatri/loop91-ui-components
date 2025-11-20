@@ -22,7 +22,6 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **QR Code Generator**    | Generate scannable QR codes for text or URLs.           |
 | **Relative Time**        | Display human-readable relative time (e.g., “2 years ago”). |
 | **TinyMCE Editor**       | Rich text editor powered by TinyMCE for user inputs.     |
-
 | **Video Player**         | Custom video player for local or external sources.       |
 | **Copy Button**          | One-click clipboard copy functionality.                  |
 | **Camera Function**      | Capture images using webcam within the browser.          |
