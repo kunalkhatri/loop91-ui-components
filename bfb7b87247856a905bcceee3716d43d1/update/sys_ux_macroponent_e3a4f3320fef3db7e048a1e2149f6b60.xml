@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types>
+        <bundles/>
+        <category>primitives</category>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends/>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>loop91 QR Code Generator</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "https://www.loop91.com",
+        "fieldType": "string",
+        "label": "QR Code Data / String",
+        "mandatory": true,
+        "name": "qrCodeData",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "transparent",
+        "fieldType": "string",
+        "label": "Background Color",
+        "mandatory": false,
+        "name": "backgroundColor",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "black",
+        "fieldType": "string",
+        "label": "Dots Color",
+        "mandatory": false,
+        "name": "dotsColor",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 200,
+        "fieldType": "number",
+        "label": "Height",
+        "mandatory": true,
+        "name": "height",
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 200,
+        "fieldType": "number",
+        "label": "Width",
+        "mandatory": true,
+        "name": "width",
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component display_value="x-1822728-qr-code-component">75c711c62c56c084077aad66e2afa0c8</root_component>
+        <root_component_config>{"qrCodeData":"@context/qrCodeData","backgroundColor":"@context/backgroundColor","dotsColor":"@context/dotsColor","height":"@context/height","width":"@context/width"}</root_component_config>
+        <root_component_definition>{"availableSlots":[]}</root_component_definition>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 06:43:45</sys_created_on>
+        <sys_id>e3a4f3320fef3db7e048a1e2149f6b60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>loop91 QR Code Generator</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e3a4f3320fef3db7e048a1e2149f6b60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 07:09:42</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3a4f3320fef3db7e048a1e2149f6b60"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component">
+    <sys_ux_lib_component action="INSERT_OR_UPDATE">
+        <default_children/>
+        <default_layout/>
+        <deprecated>false</deprecated>
+        <inner_components/>
+        <overrides/>
+        <required_sys_props/>
+        <required_translation_keys>[]</required_translation_keys>
+        <required_user_prefs/>
+        <source_script/>
+        <source_script_name>qr-code-component</source_script_name>
+        <suspend_on_view_change>false</suspend_on_view_change>
+        <sys_class_name>sys_ux_lib_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 06:43:45</sys_created_on>
+        <sys_id>75c711c62c56c084077aad66e2afa0c8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x-1822728-qr-code-component</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_lib_component_75c711c62c56c084077aad66e2afa0c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 07:09:40</sys_updated_on>
+        <tag>x-1822728-qr-code-component</tag>
+    </sys_ux_lib_component>
+</record_update>

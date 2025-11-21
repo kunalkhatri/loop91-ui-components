@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>An UI Component to generate and reder QR Codes onto UI Builder</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-1822728-qr-code-component.svg">421bbd65cc8a35c0ced44e4faf04de18</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 QR Code Generator</label>
+        <macroponent display_value="loop91 QR Code Generator">e3a4f3320fef3db7e048a1e2149f6b60</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 06:43:46</sys_created_on>
+        <sys_id>013d6137cbf4592abbe74db46f742da8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>loop91 QR Code Generator</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_013d6137cbf4592abbe74db46f742da8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 07:09:43</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=013d6137cbf4592abbe74db46f742da8"/>
+</record_update>
