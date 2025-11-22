@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>Copy text to clipboard</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-1822728-loop-91-copy-button.svg">4aba99987d91dc3ea3f84f6d501f2cfa</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 Copy button</label>
+        <macroponent display_value="loop91 Copy button">9f8d4700d6e7881dac58d3a35e5d893c</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 05:59:37</sys_created_on>
+        <sys_id>b4baba2fe8930be1b28bba091075a7b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>loop91 Copy button</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_b4baba2fe8930be1b28bba091075a7b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 07:31:49</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=b4baba2fe8930be1b28bba091075a7b8"/>
+</record_update>
