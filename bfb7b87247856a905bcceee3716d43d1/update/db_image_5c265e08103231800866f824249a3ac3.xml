@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>e52400fac31df250fed17addd40131c0</image>
+        <name>sn_tile_icon/x-1822728-loop-91-totp-client-component.svg</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 09:31:22</sys_created_on>
+        <sys_id>5c265e08103231800866f824249a3ac3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sn_tile_icon/x-1822728-loop-91-totp-client-component.svg</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>db_image_5c265e08103231800866f824249a3ac3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 09:41:03</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>sn_tile_icon/x-1822728-loop-91-totp-client-component.svg</file_name>
+        <hash>b8ea035a610571615bf5ddc2f9c032d5693d0c3e2e51166f95b49aec6dd8e1ae</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1217</size_bytes>
+        <size_compressed>640</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 09:41:03</sys_created_on>
+        <sys_id>e52400fac31df250fed17addd40131c0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-11-22 09:41:03</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>5c265e08103231800866f824249a3ac3</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="sn_tile_icon/x-1822728-loop-91-totp-client-component.svg" sys_id="e52400fac31df250fed17addd40131c0">e52400fac31df250fed17addd40131c0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 09:41:03</sys_created_on>
+        <sys_id>a92400fac31df250fed17addd40131c0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>fVTLbhsxDPwVxudalvjQo3CMtgICFNh8ROs6iYHEG8RGnOTrS3LXQU89WBpQ1JAz4np9fL2Ht6fHw/F68XA6PX9drc7nczhTGF/uVxhjXGnGAl73u/OP8e16ESFCZv8tNuur5fLqZjyc4Pt5dxyfdnDzsttBCSlE+P0O3+707Nd8tAQrcNQK/0TDdnyCYb/dHY7/yVg9ThmrO6Pv4/P7y/7+4QQYUcDq77fj4fgFfh62YbncrJ9/nR7gz/XiVnINDKnlIF0yhaZXCohE3XMgEKYgft66JAkFkigGLsXuIWuECS0ncqDOiCFBayEDpxoqVAVoNUoLpbPSMeSmB5yTQQauUUkydyHSihqRIloiaQP5gqUF7DMuGCyHAkKqAiaBJgkft7bO7baLhpJdVElKNynN2YToXS020RnwGga88LRe4tZfKjVMV7yKq8CUFLo2xKTSVS+moifugdY1m9yalNFo3TJbabZSySbK9nHLwlpLSK3pnLLSiFZnoBLtMVQJYbS9o5YvHkE0J6Y81aSMfn9IEs0/1Zp7oqq9ifaZIHl7M45ivJ7T0MuxvZ9DfY56yVBtNCSOKpZrDqmnZGqY7Y2bgoiapoAEe7OmLo+iK1ZvW3cfgOIRYZ6zDNk12yceQbNtIudmwqwoDkJsktDsES4miWxmZzybx7Ps0sWn0aRqPKZZNipbm2WXgV2xWabjQ9YU1+472UuRDyUiuwTdO0WbHougCfUsR1wHnB2Ydht7bDY0lNnWSIraQKIfEEon//hYGZS9kvk5YfV/yjA7tF398C4Wc4yfGdR04gZis4AYP7F28rFYbdb2z7T5C7kIPN/BBAAA</data>
+        <length>840</length>
+        <position>1</position>
+        <sys_attachment display_value="sn_tile_icon/x-1822728-loop-91-totp-client-component.svg" sys_id="e52400fac31df250fed17addd40131c0">e52400fac31df250fed17addd40131c0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 09:41:03</sys_created_on>
+        <sys_id>6d2400fac31df250fed17addd40131c0</sys_id>
+    </sys_attachment_doc>
+</record_update>

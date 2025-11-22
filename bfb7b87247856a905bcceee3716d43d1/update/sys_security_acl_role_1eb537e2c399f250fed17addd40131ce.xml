@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 08:38:01</sys_created_on>
+        <sys_id>1eb537e2c399f250fed17addd40131ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>177f6f22c399f250fed17addd40131ad.public</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_security_acl display_value="177f6f22c399f250fed17addd40131ad">5a90f3e2c399f250fed17addd4013110</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1eb537e2c399f250fed17addd40131ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 08:38:40</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

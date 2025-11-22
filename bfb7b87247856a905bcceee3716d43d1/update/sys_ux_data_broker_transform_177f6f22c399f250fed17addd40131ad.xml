@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_904640_loop91_ui.Generate TOTP</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Generate TOTP</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "totp_secret",&#13;
+    "label": "TOTP Secret",&#13;
+    "description": "Generate TOTP Code by providing Secret",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "fieldType":"string",&#13;
+    "defaultValue":""&#13;
+  }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[
+function transform(input) {
+
+    var TOTPGenerator = Class.create();
+    TOTPGenerator.prototype = {
+        initialize: function() {},
+
+        /**
+         * Main function to generate the TOTP code
+         * @param {string} secret - Base32 encoded secret key
+         * @param {number} [window=30] - Time step in seconds (default 30)
+         * @returns {string} 6-digit TOTP code
+         */
+        generate: function(secret, window) {
+            window = window || 30;
+
+            // 1. Decode Secret
+            var keyBytes = this._base32Decode(secret);
+
+            // 2. Calculate Time Counter (T)
+            // 8-byte buffer. JS numbers are 64-bit floats, but bitwise ops work on 32-bit ints.
+            // We construct the 8-byte array manually.
+            var epoch = Math.floor(new Date().getTime() / 1000);
+            var timeStep = Math.floor(epoch / window);
+
+            // Create 8-byte array for the counter (Big Endian)
+            var timeBytes = [0, 0, 0, 0, 0, 0, 0, 0];
+            timeBytes[4] = (timeStep >>> 24) & 0xFF;
+            timeBytes[5] = (timeStep >>> 16) & 0xFF;
+            timeBytes[6] = (timeStep >>> 8) & 0xFF;
+            timeBytes[7] = (timeStep) & 0xFF;
+
+            // 3. Calculate HMAC-SHA1
+            var hmac = this._hmacSha1(keyBytes, timeBytes);
+
+            // 4. Truncate (RFC 4226)
+            var offset = hmac[hmac.length - 1] & 0xF;
+            var binary =
+                ((hmac[offset] & 0x7F) << 24) |
+                ((hmac[offset + 1] & 0xFF) << 16) |
+                ((hmac[offset + 2] & 0xFF) << 8) |
+                (hmac[offset + 3] & 0xFF);
+
+            var otp = binary % 1000000;
+
+            // 5. Pad with leading zeros
+            var result = otp.toString();
+            while (result.length < 6) {
+                result = "0" + result;
+            }
+
+            return result;
+        },
+
+        /* -------------------------------------------------------------------------- */
+        /* INTERNAL HELPER METHODS                         */
+        /* -------------------------------------------------------------------------- */
+
+        _base32Decode: function(base32) {
+            var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
+            var length = base32.length;
+            var bits = 0;
+            var value = 0;
+            var output = [];
+
+            for (var i = 0; i < length; i++) {
+                var char = base32.charAt(i).toUpperCase();
+                if (char === '=') continue;
+                var val = alphabet.indexOf(char);
+                if (val === -1) continue;
+
+                value = (value << 5) | val;
+                bits += 5;
+
+                if (bits >= 8) {
+                    output.push((value >>> (bits - 8)) & 0xFF);
+                    bits -= 8;
+                }
+            }
+            return output;
+        },
+
+        _hmacSha1: function(keyBytes, messageBytes) {
+            var blockSize = 64;
+            
+            if (keyBytes.length > blockSize) {
+                keyBytes = this._sha1(keyBytes);
+            }
+
+            if (keyBytes.length < blockSize) {
+                // Zero-pad key to block size
+                var padding = [];
+                for (var k = 0; k < (blockSize - keyBytes.length); k++) padding.push(0);
+                keyBytes = keyBytes.concat(padding);
+            }
+
+            var oKeyPad = [];
+            var iKeyPad = [];
+
+            for (var i = 0; i < blockSize; i++) {
+                oKeyPad[i] = keyBytes[i] ^ 0x5C;
+                iKeyPad[i] = keyBytes[i] ^ 0x36;
+            }
+
+            var innerHash = this._sha1(iKeyPad.concat(messageBytes));
+            return this._sha1(oKeyPad.concat(innerHash));
+        },
+
+        _sha1: function(bytes) {
+            // Helper: Circular Left Shift
+            function rol(num, cnt) {
+                return (num << cnt) | (num >>> (32 - cnt));
+            }
+
+            // Helper: Safe Add
+            function safe_add(x, y) {
+                var lsw = (x & 0xFFFF) + (y & 0xFFFF);
+                var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+                return (msw << 16) | (lsw & 0xFFFF);
+            }
+
+            // Helper: SHA1 functions
+            function sha1_ft(t, b, c, d) {
+                if (t < 20) return (b & c) | ((~b) & d);
+                if (t < 40) return b ^ c ^ d;
+                if (t < 60) return (b & c) | (b & d) | (c & d);
+                return b ^ c ^ d;
+            }
+
+            function sha1_kt(t) {
+                return (t < 20) ? 1518500249 : (t < 40) ? 1859775393 :
+                    (t < 60) ? -1894007588 : -899497514;
+            }
+
+            // Convert bytes to big-endian words
+            var x = [];
+            for (var i = 0; i < bytes.length * 8; i += 8) {
+                x[i >> 5] |= (bytes[i / 8] & 0xFF) << (24 - i % 32);
+            }
+
+            // SHA-1 Padding
+            var len = bytes.length * 8;
+            x[len >> 5] |= 0x80 << (24 - len % 32);
+            x[((len + 64 >> 9) << 4) + 15] = len;
+
+            var w = Array(80);
+            var a = 1732584193;
+            var b = -271733879;
+            var c = -1732584194;
+            var d = 271733878;
+            var e = -1009589776;
+
+            for (var i = 0; i < x.length; i += 16) {
+                var olda = a;
+                var oldb = b;
+                var oldc = c;
+                var oldd = d;
+                var olde = e;
+
+                for (var j = 0; j < 80; j++) {
+                    if (j < 16) w[j] = x[i + j];
+                    else w[j] = rol(w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16], 1);
+                    var t = safe_add(safe_add(rol(a, 5), sha1_ft(j, b, c, d)),
+                        safe_add(safe_add(e, w[j]), sha1_kt(j)));
+                    e = d;
+                    d = c;
+                    c = rol(b, 30);
+                    b = a;
+                    a = t;
+                }
+
+                a = safe_add(a, olda);
+                b = safe_add(b, oldb);
+                c = safe_add(c, oldc);
+                d = safe_add(d, oldd);
+                e = safe_add(e, olde);
+            }
+
+            var hashWords = [a, b, c, d, e];
+            
+            // Convert words back to bytes
+            var hashBytes = [];
+            for (var i = 0; i < hashWords.length * 32; i += 8) {
+                hashBytes.push((hashWords[i >> 5] >>> (24 - i % 32)) & 0xFF);
+            }
+            
+            return hashBytes;
+        },
+
+        type: 'TOTPGenerator'
+    };
+
+    let totp_util = new TOTPGenerator();
+    let totp = totp_util.generate(input.totp_secret)
+
+    return totp;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 08:12:52</sys_created_on>
+        <sys_id>177f6f22c399f250fed17addd40131ad</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Generate TOTP</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_177f6f22c399f250fed17addd40131ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 08:56:55</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=177f6f22c399f250fed17addd40131ad"/>
+</record_update>

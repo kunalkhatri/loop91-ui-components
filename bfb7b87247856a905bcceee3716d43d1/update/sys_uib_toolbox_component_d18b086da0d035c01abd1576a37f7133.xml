@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>A description of my component</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-1822728-loop-91-totp-client-component.svg">5c265e08103231800866f824249a3ac3</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 Interval Ticker</label>
+        <macroponent display_value="loop91 Interval Ticker">f63b49cd942cce1efe0b9a81cc3b7c6f</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-22 09:31:21</sys_created_on>
+        <sys_id>d18b086da0d035c01abd1576a37f7133</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>loop91 Interval Ticker</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_d18b086da0d035c01abd1576a37f7133</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-22 09:41:02</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=d18b086da0d035c01abd1576a37f7133"/>
+</record_update>
