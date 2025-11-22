@@ -13,6 +13,8 @@
 
 Open UI Builder 
 1. Click `Add Content` to open the component picker
+   
    ![Add Chose](timer_component.png)
 2. Configure your component - The event trigger every 30 seconds
+   
    ![Configure Component Event](timer_event.png)
