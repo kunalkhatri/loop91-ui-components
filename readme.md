@@ -13,6 +13,7 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **Google Map Embed**     | Embed Google Maps with support for locations and markers. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/google-places-embed) |
 | **YouTube Embed Modal**  | Embed and play YouTube videos in modal popups. |  [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/youtube-embed)         |
 | **QR Code Generator**    | Generate scannable QR codes for text or URLs. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/qr-code-generator)          |
+| **Copy Button**          | One-click clipboard copy functionality. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/copy-text-button)          |
 ## Upcoming Components
 
 | Component Name           | Description                                              |
@@ -22,7 +23,6 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **Relative Time**        | Display human-readable relative time (e.g., “2 years ago”). |
 | **TinyMCE Editor**       | Rich text editor powered by TinyMCE for user inputs.     |
 | **Video Player**         | Custom video player for local or external sources.       |
-| **Copy Button**          | One-click clipboard copy functionality.                  |
 | **Camera Function**      | Capture images using webcam within the browser.          |
 | **PDF Viewer**           | Inline PDF previewer inside workspace or modal.          |
 | **Excel Viewer**         | Render `.xlsx` spreadsheets in a readable format.        |
