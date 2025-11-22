@@ -14,12 +14,12 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **YouTube Embed Modal**  | Embed and play YouTube videos in modal popups. |  [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/youtube-embed)         |
 | **QR Code Generator**    | Generate scannable QR codes for text or URLs. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/qr-code-generator)          |
 | **Copy Button**          | One-click clipboard copy functionality. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/copy-text-button)          |
+| **TOTP Generator**       | Time-based One-Time Password (2FA) code generator.| [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/totp-generator)       |
 ## Upcoming Components
 
 | Component Name           | Description                                              |
 |--------------------------|----------------------------------------------------------|
 | **Google Places Autocomplete** | Integrate location autocomplete input using Google Places API. |
-| **TOTP Generator**       | Time-based One-Time Password (2FA) code generator.       |
 | **Relative Time**        | Display human-readable relative time (e.g., “2 years ago”). |
 | **TinyMCE Editor**       | Rich text editor powered by TinyMCE for user inputs.     |
 | **Video Player**         | Custom video player for local or external sources.       |
