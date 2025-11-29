@@ -10,13 +10,40 @@
         <private>false</private>
         <props>[&#13;
   {&#13;
-    "name": "totp_secret",&#13;
-    "label": "TOTP Secret",&#13;
-    "description": "Generate TOTP Code by providing Secret",&#13;
+    "name": "table_name",&#13;
+    "label": "Table Name",&#13;
+    "description": "Table containing totp secret",&#13;
     "readOnly": false,&#13;
     "mandatory": true,&#13;
     "fieldType":"string",&#13;
     "defaultValue":""&#13;
+  },&#13;
+  {&#13;
+    "name": "field_name",&#13;
+    "label": "TOTP Secret field name",&#13;
+    "description": "Field name which store the totp secret",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "fieldType":"string",&#13;
+    "defaultValue":""&#13;
+  },&#13;
+  {&#13;
+    "name": "record_sysid",&#13;
+    "label": "Record SYS ID",&#13;
+    "description": "Record sys_id which stores the TOTP Secret",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "fieldType":"string",&#13;
+    "defaultValue":""&#13;
+  },&#13;
+  {&#13;
+    "name": "is_encrypted",&#13;
+    "label": "Is field encrypted",&#13;
+    "description": "Is the field storing the totp secret an encrypted field",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "fieldType":"string",&#13;
+    "defaultValue":"false"&#13;
   }&#13;
 ]</props>
         <required_translations/>
@@ -25,7 +52,22 @@
 
     var TOTPGenerator = Class.create();
     TOTPGenerator.prototype = {
-        initialize: function() {},
+        initialize: function () { },
+
+        generate: function (table_name, field_name, sys_id, is_encrypted = false) {
+            var totpSecretGr = new GlideRecord(table_name);
+            if (totpSecretGr.get(sys_id)) {
+                if (totpSecretGr.isValidField(field_name)) {
+                    if (is_encrypted) {
+                        return this.generate_code(totpSecretGr[field_name].getDecryptedValue());
+                    }
+                    else {
+                        return this.generate_code(totpSecretGr.getValue(field_name));
+                    }
+                }
+            }
+            return "000000";
+        },
 
         /**
          * Main function to generate the TOTP code
@@ -33,7 +75,7 @@
          * @param {number} [window=30] - Time step in seconds (default 30)
          * @returns {string} 6-digit TOTP code
          */
-        generate: function(secret, window) {
+        generate_code: function(secret, window) {
             window = window || 30;
 
             // 1. Decode Secret
@@ -212,23 +254,28 @@
         type: 'TOTPGenerator'
     };
 
-    let totp_util = new TOTPGenerator();
-    let totp = totp_util.generate(input.totp_secret)
 
+    let totp_util = new TOTPGenerator();
+	let table_name = input.table_name;
+	let field_name = input.field_name;
+	let record_sysid= input.record_sysid;
+	let is_encrypted = input.is_encrypted=="true";
+
+	let totp = totp_util.generate(table_name,field_name,record_sysid,is_encrypted);
     return totp;
 }]]></script>
         <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-22 08:12:52</sys_created_on>
         <sys_id>177f6f22c399f250fed17addd40131ad</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Generate TOTP</sys_name>
         <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_177f6f22c399f250fed17addd40131ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-22 09:50:08</sys_updated_on>
+        <sys_updated_on>2025-11-29 06:16:57</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=177f6f22c399f250fed17addd40131ad"/>
 </record_update>

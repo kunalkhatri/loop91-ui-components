@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>iFrame height</column_label>
+        <column_label>height</column_label>
         <comments/>
         <create_roles/>
         <default_value>315</default_value>
@@ -66,7 +66,7 @@
         <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
         <sys_update_name>sys_ux_lib_component_attr_5886e523fcf48e85e4d70434edbb3a59</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-20 11:02:23</sys_updated_on>
+        <sys_updated_on>2025-11-29 06:33:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

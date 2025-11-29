@@ -39,16 +39,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-25 07:00:28</sys_created_on>
         <sys_id>bfb7b87247856a905bcceee3716d43d1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-22 09:45:46</sys_updated_on>
+        <sys_updated_on>2025-11-29 06:46:52</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="x_904640_loop91_ui.user" name="x_904640_loop91_ui.user">3fe7b0f247056a905bcceee3716d4313</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>0.0.5</version>
+        <version>0.0.6</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=bfb7b87247856a905bcceee3716d43d1"/>
     <sys_attachment action="INSERT_OR_UPDATE">

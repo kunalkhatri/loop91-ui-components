@@ -13,10 +13,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>youtubeVideoCode</column_label>
+        <column_label>iFrame Referrer Policy</column_label>
         <comments/>
         <create_roles/>
-        <default_value>wnJZkBw7xRs</default_value>
+        <default_value>strict-origin-when-cross-origin</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>youtubeVideoCode</element>
+        <element>iframeReferrerPolicy</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,7 +35,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>YouTube video identifier (e.g. dQw4w9WgXcQ)</label>
+        <label>iFrame Referrer Policy</label>
         <mandatory>true</mandatory>
         <max_length>255</max_length>
         <model display_value="x-1822728-loop-91-youtube-embed">d548888540b910a297ce3d9da25966bb</model>
@@ -58,15 +58,15 @@
         <staged>false</staged>
         <sys_class_name>sys_ux_lib_component_attr</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-11-20 11:02:21</sys_created_on>
-        <sys_id>1fd3ab4da9960beae5126eee80ae634e</sys_id>
-        <sys_name>YouTube video identifier (e.g. dQw4w9WgXcQ)</sys_name>
+        <sys_created_on>2025-11-29 06:33:53</sys_created_on>
+        <sys_id>d46b01fe5fc8b601d5d130c3a3581087</sys_id>
+        <sys_name>iFrame Referrer Policy</sys_name>
         <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
         <sys_policy/>
         <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
-        <sys_update_name>sys_ux_lib_component_attr_1fd3ab4da9960beae5126eee80ae634e</sys_update_name>
+        <sys_update_name>sys_ux_lib_component_attr_d46b01fe5fc8b601d5d130c3a3581087</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-29 06:33:51</sys_updated_on>
+        <sys_updated_on>2025-11-29 06:33:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
