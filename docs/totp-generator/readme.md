@@ -8,7 +8,15 @@
    ![Chose Data Resource](dr_chose_component.png)
 2. Configure Data Resource
    
-   ![Configure Data Resource](dr_configure.png)
+   ![Configure Data Resource](totp-configuration.png)
+
+**Important Note regarding Encrypted Fields (PW2):** If you are retrieving a secret stored within an encrypted field, you must establish a Cross-Scope Access Policy to successfully invoke the .getDecryptedValue() method. 
+
+Configure the policy as follows:
+
+  - Source Scope: x_904640_loop91_ui
+  - Target Scope: The scope of your target table
+
 
 
 Open UI Builder 
