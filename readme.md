@@ -1,12 +1,12 @@
 # Next Experience Custom UI Components for ServiceNow
 
-A collection of open-source, reusable **Next Experience UI Components** designed to enhance the ServiceNow platform experience. Built for use in **Workspace**, **UI Builder**, and **Next Experience** apps, these components streamline integration of advanced UI features.
+A collection of open-source, reusable **Next Experience UI Components** designed to enhance the ServiceNow platform. Built for use in **Workspace**, **UI Builder**, and **Next Experience** applications, these components facilitate the integration of advanced UI features.
 
-## 🚀 About
+## About
 
-This project aims to provide ServiceNow developers with a growing library of plug-and-play UI components that address common and advanced UX needs—ranging from media embedding and user interaction to rich input controls and third-party service integrations.
+This project provides ServiceNow developers with a comprehensive library of plug-and-play UI components that address common and advanced user experience requirements, including media embedding, user interaction, rich input controls, and third-party service integrations.
 
-## ✅ Available Components
+## Available Components
 
 | Component Name           | Description         | Documentation |
 |--------------------------|----------------------------------------------------------|--|
@@ -15,12 +15,13 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **QR Code Generator**    | Generate scannable QR codes for text or URLs. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/qr-code-generator)          |
 | **Copy Button**          | One-click clipboard copy functionality. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/copy-text-button)          |
 | **TOTP Generator**       | Time-based One-Time Password (2FA) code generator.| [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/totp-generator)       |
+
 ## Upcoming Components
 
 | Component Name           | Description                                              |
 |--------------------------|----------------------------------------------------------|
 | **Google Places Autocomplete** | Integrate location autocomplete input using Google Places API. |
-| **Relative Time**        | Display human-readable relative time (e.g., “2 years ago”). |
+| **Relative Time**        | Display human-readable relative time (e.g., "2 years ago"). |
 | **TinyMCE Editor**       | Rich text editor powered by TinyMCE for user inputs.     |
 | **Video Player**         | Custom video player for local or external sources.       |
 | **Camera Function**      | Capture images using webcam within the browser.          |
@@ -30,43 +31,38 @@ This project aims to provide ServiceNow developers with a growing library of plu
 | **Attachment Carousel**  | Image/document carousel from record attachments.         |
 | **Slider Range Selector**| Interactive slider for selecting numeric ranges.         |
 
+## Installation
 
-## 📦 Installation
+Each component is published as a scoped and reusable component in ServiceNow. To install:
 
-Each component is published as a scoped and reusable component in ServiceNow. To use:
+1. Download the relevant XML files from [Releases](https://github.com/kunalkhatri/loop91-ui-components/releases).
+2. Import the XML file into your ServiceNow instance using retrieved update sets.
+3. Add components to your Workspace or UI Builder application.
 
-1. Download relevant xml files from [Releases](https://github.com/kunalkhatri/loop91-ui-components/releases)
-2. Import xml file into your ServiceNow instance using retrieved update sets
-3. Add components into your Workspace or UI Builder application.
-
-Refer to each component’s folder for setup, configuration, and usage instructions.
+Refer to each component's documentation for detailed setup, configuration, and usage instructions.
 
 ## Documentation
 
 [https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs)
 
-## 🧱 Built With
+## Built With
 
 - [ServiceNow Next Experience UI Framework](https://developer.servicenow.com/)
 - Web Components
 - HTML5, CSS, JavaScript
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions from the community!
+Contributions from the community are welcome. Please submit issues for bugs or feature requests.
 
-- Submit issues for bugs or feature requests.
+## Support
 
-## 💬 Support & Community
-
-Have questions or feedback?
-
-- Open a [GitHub Issue](https://github.com/kunalkhatri/loop91-ui-components/issues)
+For questions or feedback, please open a [GitHub Issue](https://github.com/kunalkhatri/loop91-ui-components/issues).
 
 ---
 
-Made with ❤️ for the ServiceNow developer community.
+Developed for the ServiceNow developer community.
