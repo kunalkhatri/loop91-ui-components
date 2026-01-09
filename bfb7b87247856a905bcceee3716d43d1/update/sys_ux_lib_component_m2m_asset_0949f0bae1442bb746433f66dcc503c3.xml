@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component_m2m_asset">
+    <sys_ux_lib_component_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="loop91-camera-box/index">a08ff4c54565755b4926057b6c517e37</asset>
+        <component display_value="x-1822728-loop-91-camera-box">6b17e56e147b540c3a8586795a3f4cc9</component>
+        <sys_class_name>sys_ux_lib_component_m2m_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-08 08:58:48</sys_created_on>
+        <sys_id>0949f0bae1442bb746433f66dcc503c3</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_ux_lib_component_m2m_asset_0949f0bae1442bb746433f66dcc503c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-09 06:54:38</sys_updated_on>
+    </sys_ux_lib_component_m2m_asset>
+</record_update>

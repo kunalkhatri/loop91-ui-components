@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>ff5a2e4ac35ab210fed17addd4013110</image>
+        <name>sn_tile_icon/x-1822728-loop-91-camera-box.svg</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-08 08:58:49</sys_created_on>
+        <sys_id>2da119e2929be386c7154de0077ef606</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>sn_tile_icon/x-1822728-loop-91-camera-box.svg</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>db_image_2da119e2929be386c7154de0077ef606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-09 06:54:38</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>sn_tile_icon/x-1822728-loop-91-camera-box.svg</file_name>
+        <hash>fb5f23bfcfe648529445d921024dcf00b36c6437bd55697f4b430b3820133790</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>500</size_bytes>
+        <size_compressed>314</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-09 06:54:38</sys_created_on>
+        <sys_id>ff5a2e4ac35ab210fed17addd4013110</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-09 06:54:38</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>2da119e2929be386c7154de0077ef606</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="sn_tile_icon/x-1822728-loop-91-camera-box.svg" sys_id="ff5a2e4ac35ab210fed17addd4013110">ff5a2e4ac35ab210fed17addd4013110</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-09 06:54:38</sys_created_on>
+        <sys_id>b35a2e4ac35ab210fed17addd4013111</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>RVG7bsMwDPwVQp1p05Qs2UWcoVOWbJm8FUgaGXAebgQ7n19STlAIAg7He1DQ5jGf4XkZr4/OxJTun2W5LEux2OL2ey6ZiEpRGIin4RxTZ9jdnwbm4bR83Z6dIcDWE7yugWU4pvhW/Qzj2JmPk9Vjtpv7d4pw7MzeNYTsaQo1EFQcihprLuqD94TO0UQYVgbz8KB6zzShGlYOssHSywBhZeDfIAX9hbARm2OxhQq5TXIFSYNwGabMTyqBUAmXuAVVgGPMMGHm+33ltVzyrJW82st+bKVNy4hmlFYJlqGyeX5QS/AUK/ZjcLJMZEeCoMncpEmgSliT9KENzTkJrM35eS4luXxXvZ8VvVs7d942IwYr3M62tUKJV6Hm9BfLsp+j3pTbjX7m9g/yG1959AEAAA==</data>
+        <length>408</length>
+        <position>1</position>
+        <sys_attachment display_value="sn_tile_icon/x-1822728-loop-91-camera-box.svg" sys_id="ff5a2e4ac35ab210fed17addd4013110">ff5a2e4ac35ab210fed17addd4013110</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-09 06:54:38</sys_created_on>
+        <sys_id>775a2e4ac35ab210fed17addd4013111</sys_id>
+    </sys_attachment_doc>
+</record_update>

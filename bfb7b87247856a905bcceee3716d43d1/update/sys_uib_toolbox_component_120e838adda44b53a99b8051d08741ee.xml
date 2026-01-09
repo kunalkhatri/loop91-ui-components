@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config>{}</component_config>
+        <config_layout/>
+        <description>A component which allows to capture image from a camera attached to system.</description>
+        <external_configuration_sources>[]</external_configuration_sources>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon/>
+        <image_icon display_value="sn_tile_icon/x-1822728-loop-91-camera-box.svg">2da119e2929be386c7154de0077ef606</image_icon>
+        <internal_component>false</internal_component>
+        <label>loop91 Camera</label>
+        <macroponent display_value="loop91 Camera">b104f5f4fef67aecec64ba9eb439a37d</macroponent>
+        <order>0</order>
+        <required_translations/>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-08 08:58:47</sys_created_on>
+        <sys_id>120e838adda44b53a99b8051d08741ee</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>loop91 Camera</sys_name>
+        <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_120e838adda44b53a99b8051d08741ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-09 06:54:37</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=120e838adda44b53a99b8051d08741ee"/>
+</record_update>
