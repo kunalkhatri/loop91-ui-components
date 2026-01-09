@@ -170,7 +170,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Business Application 1_Information Object 1</sys_name>
         <sys_package display_value="loop91 UI Components" source="x_904640_loop91_ui">bfb7b87247856a905bcceee3716d43d1</sys_package>
-        <sys_parent display_value="CMDB Qb Result 8d06153b217570ab0effbbc87644f9b64fc2f3f0">a3ecc5f247096a905bcceee3716d43da</sys_parent>
+        <sys_parent display_value="">a3ecc5f247096a905bcceee3716d43da</sys_parent>
         <sys_policy/>
         <sys_scope display_value="loop91 UI Components">bfb7b87247856a905bcceee3716d43d1</sys_scope>
         <sys_scope_delete display_value="">1e8be7841a504f619a5b7aad8c439c29</sys_scope_delete>
