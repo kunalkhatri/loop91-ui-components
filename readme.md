@@ -15,7 +15,7 @@ This project provides ServiceNow developers with a comprehensive library of plug
 | **QR Code Generator**    | Generate scannable QR codes for text or URLs. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/qr-code-generator)          |
 | **Copy Button**          | One-click clipboard copy functionality. | [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/copy-text-button)          |
 | **TOTP Generator**       | Time-based One-Time Password (2FA) code generator.| [Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/totp-generator)       |
-| **Camera Function**      | Capture images using webcam within the browser.         | |
+| **Camera Function**      | Capture images using webcam within the browser.         |[Documentation](https://github.com/kunalkhatri/loop91-ui-components/tree/main/docs/camera-box) |
 
 ## Upcoming Components
 
