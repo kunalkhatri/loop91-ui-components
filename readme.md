@@ -39,6 +39,8 @@ Each component is published as a scoped and reusable component in ServiceNow. To
 2. Import the XML file into your ServiceNow instance using retrieved update sets.
 3. Add components to your Workspace or UI Builder application.
 
+[YouTube tutorial for installation](https://youtu.be/ARmEdC5sf7U)
+
 Refer to each component's documentation for detailed setup, configuration, and usage instructions.
 
 ## Documentation
